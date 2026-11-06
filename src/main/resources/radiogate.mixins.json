@@ -1,0 +1,21 @@
+{
+  "required": true,
+  "minVersion": "0.8.5",
+  "package": "com.cotc.radiogate.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "RadioNetworkHandlerMixin",
+    "RadioNetworkHandlerAccessor",
+    "RadioBlockEntityMixin"
+  ],
+  "client": [
+    "RadioStreamerMixin",
+    "RadioStreamerAccessor",
+    "RadioInstanceMixin",
+    "MusicScannerMixin"
+  ],
+  "server": [],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
